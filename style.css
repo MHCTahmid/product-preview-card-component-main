@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    text-align: center;
+    color: hsl(228, 12%, 48%);
+}
+
+section {
+    background-color: white;
+    height: 62vh;
+    width: 95vh;
+    display: flex;
+    border-radius: 1em;
+    margin: 8em auto;
+}
+
+.picture {
+    width: 100%;
+}
+
+.picture img {
+    height: 100%;
+    width: 92%;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.content {
+    width: 70%;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-right: 1.5em;
+}
+
+.content h3 {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    letter-spacing: .4em;
+    font-weight: 700;
+}
+
+.content h1 {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.content p {
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.content h2 {
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.content span {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    margin-left: 10px;
+    position: relative;
+    top: -5px;
+}
+
+.btn button {
+    font-size: 16px;
+    background-color: hsl(158, 36%, 37%);
+    color: rgb(205, 229, 253);
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+button img {
+    width: 6.5%;
+    height: 7%;
+    color: white;
+    position: relative;
+    left: -7px;
+    top: 2.5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(41, 87, 70);
+}
